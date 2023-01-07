@@ -1,0 +1,20 @@
+@mixin back_color{
+    background-color: aqua;
+}
+
+@mixin base_font{
+    font-size: 23px;
+    color: darkred;
+}
+
+@mixin base_blox{
+    border-color: blueviolet;
+}
+
+.flex{
+    @include back_color;
+}
+.flex .item{
+    @include base_font;
+    @include base_blox;
+}

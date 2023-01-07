@@ -1,0 +1,9 @@
+.flex {
+  background-color: aqua;
+}
+
+.flex .item {
+  font-size: 23px;
+  color: darkred;
+  border-color: blueviolet;
+}/*# sourceMappingURL=style.css.map */
